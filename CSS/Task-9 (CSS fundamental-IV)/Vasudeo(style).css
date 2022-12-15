@@ -1,0 +1,87 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: skyblue;
+}
+
+#px {
+    background-color: yellowgreen;
+    width: 300px;
+    height: 300px;
+}
+
+#emparent { 
+    background-color: gray;
+    font-size: 20 px;
+}
+
+/* 1em=16px  Approx */
+/* ///////////////////////////////////////// */
+
+#em1{
+    background-color: yellow;
+}
+
+
+#em2 {
+    background-color: darkcyan;
+    font-size: 3em !important;
+}
+
+/* 1rem=16px  Approx */
+
+#remparent { 
+    background-color: gray;
+    font-size: 40 px;
+}
+
+/* ///////////////////////////////////////// */
+
+#rem1{
+    background-color: yellow;
+}
+
+
+#rem2 {
+    background-color: darkcyan;
+    font-size: 5rem !important;
+    text-align: center;
+}
+
+/* ///////////////////////////////////////////// */
+
+#percentparent {
+    background-color: navy;
+    width: 100%;
+    height: 200px;
+}
+
+
+#percent{
+    background-color:palevioletred ;
+    width: 50%;
+    height: 100px;
+}
+
+
+/* ///////////////////////////////////////////// */
+
+#vwvhparent {
+    background-color: navy;
+    width: 50vw;
+    height: 50vh;
+}
+
+
+#vwvh{
+    background-color:palevioletred ;
+    width: 70vw;
+    height: 50%;
+}
+
+/* *{
+    background-color:whitesmoke;
+    color:gray;
+} */

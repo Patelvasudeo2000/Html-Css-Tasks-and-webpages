@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+       #parent1,
+       #parent2
+       {
+            background-color: blueviolet;
+        }
+
+       #parent1 p {
+            background-color: green;
+        }
+       
+       #parent2 > p {
+            background-color: green;
+        }
+       
+        #parent2 + h1 {
+            background-color: gray !important;
+        }
+
+        #parent2 ~ h1 {
+            background-color: aqua;
+        }
+
+        /*Psuedo Classes & Elements*/
+        #googleLink{
+            background-color: yellow;
+        }
+
+       #googleLink:hover{
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+        
+        a:visited{
+            background-color: pink;
+            color: black;
+        }
+
+        a:active{
+            background-color: yellowgreen;
+        }
+
+
+        #PseudoElement >p: {
+            background-color: aqua;
+        }
+
+        #PseudoElement >p::first-line {
+            background-color: red;
+        }
+
+
+        li:first-child{
+            background-color:gold ;
+        }
+        li:nth-child(2){
+            background-color:yellowgreen ;
+        }
+
+        li:nth-child(4){
+            background-color:orange ;
+        }
+
+        form{
+            background-color: blueviolet;
+            padding: 20px;
+        }
+
+        input {
+            padding: 10px;
+            width: 30%;
+            outline: none;
+
+        }
+        input  [type="submit"]
+        {width: 15%;
+        background-color: orange ;
+        
+    }
+        
+
+        
+</style>
+</head>
+<body>
+    <div id="parent1">
+        <h1>Shirpur Education Society </h1>
+        <p>R.C.Patel Educational Trust </p>
+        <h1>Shirpur Education Society </h1>
+        <p>R.C.Patel Educational Trust  </p>
+     <span>
+        <p>Lorem ipsum dolor sit amet.</p>
+     </span>
+    </div>
+   
+    <div id="parent2">
+        <h1>Shirpur Education Society </h1>
+        <p>R.C.Patel Educational Trust </p>
+        <h1>Shirpur Education Society </h1>
+        <p>R.C.Patel Educational Trust </p>
+      <span>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </span>
+    </div>
+ 
+    <h1>Combinator Selectors </h1>
+    <h1>Combinator Selectors </h1>
+    <h1>Combinator Selectors </h1>
+    <p>Control Instruction </p
+    
+        
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, quo velit illo non voluptas, odio commodi quibusdam quas quis mollitia ipsam. Pariatur a debitis adipisci nobis distinctio facere odit quaerat impedit ducimus, maxime optio aut ea quo eius blanditiis rerum earum in fugit quod assumenda, tempore maiores ipsam eos ab?</p>
+        
+    <hr>
+    <hr>
+
+    <h1>Psuedo Classes & Elements</h1>
+
+    <a href="https://google.com" id="googlelink">Open google</a>
+    <a href="https://twitter.com">Open twitter</a>
+    <a href="https://gmail.com" >Open gmail</a>
+    <a href="https://facebook.com">Open facebook</a>
+ 
+    <div id="PseudoElement">
+      
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam incidunt, iusto necessitatibus ipsa eius optio quis ut aut, odio eos voluptatem quibusdam iste quae illum sapiente voluptates. Soluta, non nemo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum impedit obcaecati iste quidem, corrupti vitae laudantium ratione expedita excepturi nihil voluptas porro temporibus dolorem pariatur? Omnis reiciendis delectus nesciunt, quia, quasi consectetur, quo reprehenderit alias minus quos impedit! Facere quidem debitis eligendi vel repudiandae. Quod ut inventore tempora consequuntur quae sed asperiores fuga aperiam quaerat in! Officiis, quis nemo!</p>
+
+<ul>
+    <li>OKEY</li>
+    <li>OKEY</li>
+    <li>OKEY</li>
+    <li>OKEY</li>
+</ul>
+
+<form>
+    <input type="text" placeholder="Enter Full Name"/>
+    <input type="password" placeholder="Enter Your password"/>
+   <input type="submit" value="Submit">
+</form> 
+
+
+    </div>
+
+</body>
+</html>

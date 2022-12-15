@@ -1,0 +1,142 @@
+body{
+    background-color:aquamarine;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8rem;
+}
+
+.navbar-container div:nth-child(1){
+    margin-top: 0.7rem;
+}
+
+#logo{
+    /* margin-top: 1rem; */
+    position: relative;
+    /* top: 15px; */
+    margin-top: 0.7rem ;
+}
+
+.heading{
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.navbar-container ul{
+display: flex;
+justify-content: space-around;
+width: 50vw;
+margin-top: 1.5rem;
+}
+
+.navbar-container li{
+list-style-type: none;
+}
+
+.navbar-container button{
+    padding: 0.6rem;
+    border: 2px solid blue;
+    background-color: transparent;
+    margin-top: 1.5rem;
+    width: 7rem;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------ */
+
+  .home-continer {
+    
+    height: 5ovh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;   
+    margin-top: 2rem;
+}
+
+.home-continer div:nth-child(1) {
+    text-transform: uppercase;
+}
+
+.home-continer div:nth-child(2) {
+    max-width: 17rem;
+}
+
+.text-para{
+    line-height: 0.3rem;
+}
+
+.home-continer input{
+    padding: 0.3rem;
+    width: 12rem;
+    height: 1rem;
+    border: 2px solid black;
+    margin-top: 0.5rem;
+   
+}
+
+.home-continer button{
+    padding: 0.3rem;
+    width: 6rem;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.home-continer div:nth-child(5) {
+font-size: 14px;
+color: gray;
+margin-top: 0.3rem;
+}
+
+
+/* --------------------------------------------------------------- */
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+#footer_logo{
+    display: flex;
+    padding: 5px 0;
+}
+
+ #footer_heading{
+    padding: 0.5rem;
+}
+
+#footer_heading h4{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.3rem;    
+}
+
+#footer_heading p{
+    max-width: 15rem;
+    font-size: 1rem;
+    padding: .5rem  .3rem;
+    color: rgb(50, 50, 50);
+}
+
+.footer_icon{
+color: blue;
+font-size: 1.3rem;
+position: relative;
+top: 20px;
+}
+
+
+
+
+
+
+
+
+

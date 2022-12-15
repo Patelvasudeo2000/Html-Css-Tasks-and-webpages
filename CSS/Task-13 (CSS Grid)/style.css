@@ -1,0 +1,36 @@
+body{
+    background-color: aqua ;
+}
+
+#gridcontainer{
+    background-color: darkorange;
+    height: 90vh;
+    padding:1rem ;
+    display: grid;
+    /* grid-template-columns:48% 25% 25%; */
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 0.4rem;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+#box10{
+     grid-column-start: 1;
+     grid-column-end: 3;
+
+     grid-row-start: 2;
+     grid-row-end: 5;
+}
+
+#box4{
+    grid-column-start: 3;
+     grid-column-end: 4;
+
+     
+     grid-row-start: 1;
+     grid-row-end: 8;
+}
